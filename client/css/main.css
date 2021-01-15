@@ -1,0 +1,55 @@
+/* html, body {
+    font-family: "Press Start 2P";
+} */
+body, .jumbotron {
+    padding: 15px;
+    background-color: rgb(255, 255, 255);
+}
+.btn-start {
+    display: block;
+    position: absolute;
+    top: 40%;
+    left: 45%;
+    transition: 0.1s ease all;
+    background: white;
+    color: black;
+    border: 3px solid black;
+    width: 150px;
+    height: 150px;
+
+}
+#i-am-ready {
+    display: none;
+    position: absolute;
+    top: 42%;
+    left: 44%;
+    transition: 0.1s ease all;
+    background: white;
+    color: black;
+    width: 500px;
+    height: 150px;
+}
+
+#row-1 {
+    height: 5vh;
+}
+#row-2 {
+    height: 15vh;
+}
+#row-3 {
+    height: 55vh;
+}
+#row-4 {
+    height: 10vh;
+}
+#row-5 {
+    height: 10vh;
+}
+
+#info-area p {
+    margin: 0px;
+}
+
+.deck {
+    font-size: 90px;
+}

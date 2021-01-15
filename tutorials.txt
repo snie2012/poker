@@ -1,0 +1,13 @@
+https://dev.to/denislav__/how-to-use-socket-io-not-the-chat-3l21
+
+https://socket.io/get-started/chat/
+
+http://buildnewgames.com/real-time-multiplayer/
+
+https://dashboard.ngrok.com/get-started/setup
+
+https://hackernoon.com/enforcing-a-single-web-socket-connection-per-user-with-node-js-socket-io-and-redis-65f9eb57f66a
+
+
+Can use unicode to render cards:
+https://en.wikipedia.org/wiki/Playing_cards_in_Unicode

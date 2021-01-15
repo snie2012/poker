@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- My meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="snie">
+    <meta name="keywords" content="poker chinese">
+    <!-- Title -->
+    <title>开一局</title>
+    <!-- Links -->
+    <!-- <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet"> -->
+    <link href="https://unpkg.com/nes.css/css/nes.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row no-gutters" id="row-1">
+            <div class="col" id="info-area">
+                <p>来开发我们自己的升级吧！&#x1F0B7;</p>
+                <p id="user-id"></p>
+                <p id="num-user-connected"></p>
+                <p id="num-user-ready"></p>
+            </div>
+            <div class="col" id="user-top"></div>
+        </div>
+        <div class="row no-gutters" id="row-2">
+            <div class="col-6"></div>
+            <div class="col-2 deck" id="deck-top"></div>
+            <div class="col-5"></div>
+        </div>
+        <div class="row no-gutters" id="row-3">
+            <div class="col-0.5 no-gutters my-auto" id="user-left"></div>
+            <div class="col-1 no-gutters my-auto deck d-flex justify-content-center" id="deck-left"></div>
+            <div class="col">
+                <button type="button" id="start-button" class="btn-start btn btn-lg">开始!
+                </button>
+                <h1 id="i-am-ready">I am ready!</h1>
+            </div>
+            <div class="col-1 no-gutters my-auto deck d-flex justify-content-center" id="deck-right"></div>
+            <div class="col-0.5 no-gutters my-auto" id="user-right"></div>
+        </div>
+        <div class="row no-gutters" id="row-4">
+            <div class="col-4"></div>
+            <div class="col-5 deck" id="deck-bottom"></div>
+            <div class="col-5"></div>
+        </div>
+        <div class="row no-gutters" id="row-5">
+            <div class="col-1"></div>
+            <div class="col-9 my-auto" id="col-1"></div>
+            <div class="col-2 my-auto" id="col-2"></div>
+        </div>
+    </div>
+    <script src="/lib/live.js" charset="utf-8"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="https://d3js.org/d3.v6.js"></script>
+    <script src="/js/app.js" charset="utf-8"></script>
+</body>
+
+</html>
